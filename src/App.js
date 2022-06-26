@@ -9,9 +9,11 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer>
-          Coded by Mandy Beniac with
-          <a href="https://github.com/mbeniac/dictionary-app"> GitHub</a>.
+        <footer className="text-center">
+          <small>
+            Coded by Mandy Beniac with
+            <a href="https://github.com/mbeniac/dictionary-app"> GitHub</a>.
+          </small>
         </footer>
       </div>
     </div>
