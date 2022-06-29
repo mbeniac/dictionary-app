@@ -1,10 +1,18 @@
 .App-header {
   text-align: center;
   text-decoration: solid;
-  color: blueviolet;
+  color: #1a1a1a;
   font-size: 48px;
 }
 
 .App-footer {
   margin-top: 5px;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+a {
+  color: 1c5ad4;
 }
