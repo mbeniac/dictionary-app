@@ -1,6 +1,5 @@
 import React from "react";
 import "./Photos.css";
-import "./Photos";
 
 export default function Photos(props) {
   if (props.photos) {
@@ -15,6 +14,7 @@ export default function Photos(props) {
                     src={photo.src.landscape}
                     className="img-fluid"
                     key="index"
+                    alt="photo"
                   />
                 </a>
               </div>
