@@ -9,7 +9,7 @@ function App() {
           <strong>Dictionary Search</strong>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="text-center">
           <small>
